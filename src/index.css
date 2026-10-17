@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body: 'Manrope', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-gym-dark: #101114;
+  --color-gym-charcoal: #1B1D21;
+  --color-gym-surface: #22252A;
+  --color-gym-orange: #FF6B24;
+  --color-gym-orange-hover: #E55716;
+  --color-gym-white: #F5F5F2;
+  --color-gym-text: #B9BCC3;
+  --color-gym-border: #303238;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #101114;
+  color: #B9BCC3;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: var(--font-display);
+}

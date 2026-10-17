@@ -1,0 +1,8 @@
+{
+  "name": "Shahzad Fitness Gym",
+  "description": "Premium fitness gym located in Factory Area Chowk, Sargodha, Pakistan. Explore fitness training, diet guidance, and membership enquiries with trainer Malik Shahzad Ahmed.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
